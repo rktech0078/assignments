@@ -1,0 +1,45 @@
+.box{
+    width:  600px;
+    height: 400px;
+    margin: 100px auto; 
+    box-shadow: 0px 0px 10px orangered;
+    border-radius: 22px;
+    padding: 25px;
+    background-color: antiquewhite;
+}
+
+.box h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: arial black;
+}
+
+.box p{
+    font-family: calibri;
+    font-size: 25px;
+    font-weight: bolder ;
+    /* text-align: justify; */
+}
+
+.box:hover{
+    box-shadow: 0px 0px 20px orangered;
+}
+
+.box h1{
+    animation: ayan 1s infinite;
+    position: relative;
+}
+
+@keyframes ayan{
+    0% {color: blueviolet;}
+    10%{color: red;}
+    20%{color: orange;}
+    30%{color: orangered;}
+    40%{color: purple;}
+    50%{color: pink;}
+    60%{color: green;}
+    70%{color: yellow;}
+    80%{color: greenyellow;}
+    90%{color: maroon;}
+    100%{color: magenta;}
+}

@@ -1,0 +1,50 @@
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: red ;
+    box-sizing: border-box;
+    margin: 10px auto;
+}
+
+.box{
+    animation: color 5s infinite;
+}
+
+@keyframes color{
+    0%{background-color:  blue;}
+    10%{background-color:  rgb(81, 255, 0);}
+    20%{background-color:  rgb(220, 45, 202);}
+    30%{background-color:  rgb(32, 240, 244);}
+    40%{background-color:  rgba(37, 1, 1, 0.87);}
+    50%{background-color:  rgb(165, 231, 128);}
+    60%{background-color:  rgb(100, 151, 194);}
+    70%{background-color:  rgba(7, 0, 1, 0.664);}
+    80%{background-color:  rgb(136, 136, 214);}
+    90%{background-color:  rgb(184, 29, 132);}
+    100%{background-color:  rgb(232, 61, 10);}
+}
+
+.h1{
+    font-size: 70px;
+    font-family: arial black;
+    text-align: center;
+  }
+
+.h1{
+    animation: rktech 5s infinite;
+    position: relative;
+}
+
+@keyframes rktech{
+    0%{color:  blue;}
+    10%{color:  rgb(81, 255, 0);}
+    20%{color:  rgb(220, 45, 202);}
+    30%{color:  rgb(32, 240, 244);}
+    40%{color:  rgba(37, 1, 1, 0.87);}
+    50%{color:  rgb(165, 231, 128);}
+    60%{color:  rgb(100, 151, 194);}
+    70%{color:  rgba(7, 0, 1, 0.664);}
+    80%{color:  rgb(136, 136, 214);}
+    90%{color:  rgb(184, 29, 132);}
+    100%{color:  rgb(232, 61, 10);}
+}
