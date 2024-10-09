@@ -1,6 +1,6 @@
 import css from "./service.module.css"
 import Link from "next/link"
-export default function () {
+export default function Klink() {
     return (
         <div>
             <div className={css.container}>
