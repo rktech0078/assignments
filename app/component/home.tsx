@@ -1,5 +1,5 @@
 import cssAbout from "../(Navbar)/about/about.module.css"
-export default function Homes1() {
+export default function Main() {
   return (
     <div>
       <div className={cssAbout.box}>
